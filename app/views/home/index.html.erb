@@ -1,0 +1,10 @@
+<h1>Kcanvas</h1>
+<% if current_user %>
+ <span><%= link_to 'ログアウト', destroy_user_session_path, :method=>'delete' %></span>
+<% else %>
+  <span><%= link_to 'ログイン', new_user_session_path %></span>
+  <span><%= link_to 'ユーザー登録', new_user_registration_path %></span>
+  <span><%= link_to 'パスワード再発行', new_user_password_path %></span>
+  
+  <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+<% end %>
