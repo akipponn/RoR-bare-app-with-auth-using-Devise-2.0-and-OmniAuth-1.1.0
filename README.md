@@ -19,4 +19,5 @@ $ rake db:create
 ## Migrate db schema
 $ rake db:migrate
 
+
 Done! Happy coding :)
