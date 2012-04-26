@@ -1,4 +1,4 @@
-Kcanvas2::Application.configure do
+RorAppWithAuth::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -65,6 +65,6 @@ Kcanvas2::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
   
-  FB_APP_ID = "406840399337803"
-  FB_APP_SECRET = "fd56ec7eef2d8460a31bebbe44dc26cd"
+  FB_APP_ID = "your fb app id here"
+  FB_APP_SECRET = "your fb app secret here"
 end

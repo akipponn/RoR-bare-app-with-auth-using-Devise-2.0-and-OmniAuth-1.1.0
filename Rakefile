@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Kcanvas2::Application.load_tasks
+RorAppWithAuth::Application.load_tasks

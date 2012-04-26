@@ -1,4 +1,4 @@
-Kcanvas2::Application.configure do
+RorAppWithAuth::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -37,6 +37,6 @@ Kcanvas2::Application.configure do
   
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
     
-  FB_APP_ID = "317547308318548"
-  FB_APP_SECRET = "3556bac9fd136591daaefc055fffe7bd"
+  FB_APP_ID = "your fb app id here"
+  FB_APP_SECRET = "your fb app secret here"
 end
